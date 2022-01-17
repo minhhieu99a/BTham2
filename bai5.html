@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập số thứ nhất :"))
+    let b = parseInt(prompt("Nhập số thứ hai :"))
+    let c = parseInt(prompt("Nhập số thứ ba :"))
+
+    function checkMin(x, y, z) {
+        let min;
+        if (x < y && x < z) {
+            min = x;
+        } else if (y < z) {
+            min = y;
+        } else {
+            min = z;
+        }return min
+    }alert(checkMin(a,b,c))
+</script>
+</body>
+</html>
